@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-table-test/static/css/main.5e27e840.chunk.css",
-    "main.js": "/react-table-test/static/js/main.cf424bde.chunk.js",
-    "main.js.map": "/react-table-test/static/js/main.cf424bde.chunk.js.map",
+    "main.js": "/react-table-test/static/js/main.64476c0b.chunk.js",
+    "main.js.map": "/react-table-test/static/js/main.64476c0b.chunk.js.map",
     "runtime-main.js": "/react-table-test/static/js/runtime-main.547f46dc.js",
     "runtime-main.js.map": "/react-table-test/static/js/runtime-main.547f46dc.js.map",
     "static/js/2.97b6a7f7.chunk.js": "/react-table-test/static/js/2.97b6a7f7.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.547f46dc.js",
     "static/js/2.97b6a7f7.chunk.js",
     "static/css/main.5e27e840.chunk.css",
-    "static/js/main.cf424bde.chunk.js"
+    "static/js/main.64476c0b.chunk.js"
   ]
 }
