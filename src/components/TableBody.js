@@ -1,11 +1,7 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import s from './table.module.css'
 
-export const TableBody = ({ currentItems, data, setCurrentItems, pageSize, currentPage }) => {
-  useEffect(() => {
-    setCurrentItems(data, pageSize, currentPage)
-  }, [currentPage, data])
-
+export const TableBody = ({ currentItems }) => {
   return (
     <tbody className={s.tableRow}>
       {currentItems.map((item) => (

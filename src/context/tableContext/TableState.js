@@ -1,4 +1,4 @@
-import React, { useReducer } from 'react'
+import React, { useMemo, useReducer } from 'react'
 
 import { tableReducer } from './tableReducer'
 import { API } from '../../api'
@@ -9,7 +9,7 @@ import { paginateReducer } from './paginateReducer'
 
 export const TableState = ({ children }) => {
   const initialState = {
-    data: null,
+    data: [],
     currentPage: 1,
     pageSize: 7,
     sortItem: null,

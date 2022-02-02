@@ -47,9 +47,8 @@ const handlers = {
         return i[action.columnName] > Number(action.inputValue)
       } else if ((action.columnName === 'distance' || 'quantity') && action.condition === '<') {
         return i[action.columnName] < Number(action.inputValue)
-      } else return null
+      }
     }),
-    currentPage: 1,
   }),
   DEFAULT: (state) => state,
 }

@@ -35,15 +35,11 @@ export const App = () => {
       <TableFilter dataLength={data.length} tableFilter={tableFilter} />
       <table>
         <TableHead sortItem={sortItem} sortTop={sortTop} sortDown={sortDown} />
-        <TableBody
-          data={data}
-          currentItems={currentItems}
-          setCurrentItems={setCurrentItems}
-          pageSize={pageSize}
-          currentPage={currentPage}
-        />
+        <TableBody currentItems={currentItems} />
       </table>
       <Pagination
+        data={data}
+        setCurrentItems={setCurrentItems}
         totalItems={data.length}
         pageSize={pageSize}
         currentPage={currentPage}
