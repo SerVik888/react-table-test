@@ -1,0 +1,6 @@
+export const GET_DATA = 'GET_DATA'
+export const PAGINATE = 'PAGINATE'
+export const GET_CURRENT_ITEMS = 'GET_CURRENT_ITEMS'
+export const FILTER = 'FILTER'
+export const SORT_TOP = 'SORT_TOP'
+export const SORT_DOWN = 'SORT_DOWN'

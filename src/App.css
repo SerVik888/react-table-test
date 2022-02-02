@@ -1,0 +1,27 @@
+body {
+  margin: 30px auto;
+  max-width: 1200px;
+  text-align: center;
+}
+
+table {
+  margin: 0px 20px 0px 20px;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 20px;
+  
+}
+tr {
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+td , th{
+    padding: 5px 0;
+    text-align: center;
+    width: 100%;
+    border: 1px solid rgb(156, 156, 156);
+}
+
