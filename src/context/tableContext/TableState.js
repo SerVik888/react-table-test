@@ -1,4 +1,4 @@
-import React, { useMemo, useReducer } from 'react'
+import React, { useReducer } from 'react'
 
 import { tableReducer } from './tableReducer'
 import { API } from '../../api'
